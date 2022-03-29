@@ -4,30 +4,20 @@
     padding: 0;
 }
 
-head {
-    display: none;
-}
-
 body {
     background-color: azure;
     font-size: 16px;
-    display: block;
 }
-
-header {
-    background-color: rgba(245, 245, 125, 0.342);
+header { 
+    background-color: rgb(110, 110, 201);
     padding: 1em 0;
-}
-
-.container {
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-div {
     display: block;
 }
-
+.header , .container {
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
 h1 {
     display: block;
     font-size: 2em;
@@ -37,15 +27,35 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+body {
+    background-color: azure;
+    font-size: 16px;
 
-a {
-    text-decoration: underline;
-    color: rgb(241, 137, 137);
+}
+.navbar {
+    width:100%;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 36px;
+}
+li {
     display: inline;
+    float: right;
     justify-content: space-between;
     font-size: 16px;
 }
-
+.header h3 {
+    text-align: right;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color:black;
+}
 section {
     padding-top: 1em;
     display: flex;
@@ -54,31 +64,14 @@ section {
     width: 30%;
     border-right:4px solid grey;
 }
-section h2 {
-    text-align: right;
-    padding-right: 30px;
-}
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
 .col-right {
     width: 70%;
     padding-left: 30px;
 }
-.project-1 img {
-    display: block;
-    margin: 20px auto;
+section h2 {
+    text-align: right;
+    padding-right: 30px;
 }
-img {
-    display: block;
-    width: 100%;
-    height: 400px;
-    background-size: cover;
+p {
+    padding: .5em 0;
 }

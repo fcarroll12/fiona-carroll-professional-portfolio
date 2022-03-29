@@ -5,27 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiona Carroll's Professional Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h1>Fiona Carroll's Portfolio</h1> 
-                <nav class="text-right">
-                    <a href="#aboutme">About Me</a>
-                    <a href="#work">Work</a>
-                    <a href="#contactme">Contact Me</a>
-                    <a href="#resume">Resume</a>
-                </nav>
-        </div>
-        <div class="container">
-            <img src="./assets/IMG_4153 (1).jpeg" alt="recent photo of myself"/>
-                <h2>Welcome!!</h2>
-        </div>
+    <header class="header">
+        <h1>Fiona Carroll's Portfolio</h1> 
+        <h3>Welcome!</h3>
+        <nav class="navbar">
+             <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
     </header>
-
+ 
     <main class="container">
         <section id="aboutme">
             <div class="col-left">
@@ -33,45 +29,35 @@
             </div>
             <div class="col-right">
                 <p> Insert paragraph about myself here.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
-                non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur esse
-                voluptatum, dolores dolor aspernatur neque laborum dolorum dolorem repudiandae. Dignissimos eveniet sequi
-                corporis tempore ullam! </p>
+            non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur esse
+            voluptatum, dolores dolor aspernatur neque laborum dolorum dolorem repudiandae. Dignissimos eveniet sequi
+            corporis tempore ullam! </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
-                non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore</p>
+            non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore</p>
             </div>
         </section>
         <section id="work">
             <div class="col-left">
                 <h2> Work</h2>
             </div>
-            <div class="col-right">
-                <section class="project-1">
-                    <h2> Project-1</h2>
-                    <img src="./assets/IMG_1.jpeg" alt="image with number 1 sign"/>
-                    <p>HTML,CSS, API's</p>
-                </section>
-                <section class="project-2">
-                    <h2> Project-2 <h/2>
-                    <img src="./assets/IMG_2.jpeg" alt="image with number 2 sign"/>
-                    <p>Building Server Code</p>
-                </section>
-                <section class="project-3">
-                    <h2> Project-3 <h/2>
-                    <img src="./assets/IMG_3.jpeg" alt="image with number 3 sign"/>
-                    <p>Final Project</p>
-                </section>
-                <section class="project-4">
-                    <h2> Project-4 <h/2>
-                    <img src="./assets/IMG_unknown.jpeg" alt="image with unkown project sign"/>
-                    <p>Unknown</p>
-                </section>
-                <section class="project-5">
-                    <h2> Project-5 <h/2>
-                    <img src="./assets/IMG_unknown.jpeg" alt="image with unkown project sign"/>
-                    <p>Unknown</p>
-                </section>
-            </div>      
+            <div class="col-right">  
+                <figure class="project w-100">
+                    <img src="./assets/IMG_1.jpeg" alt="image with number 1 sign">
+                </figure>
+                <figure class="project w-50">
+                    <img src="./assets/IMG_2.jpeg" alt="image with number 2 sign">
+                </figure>
+                <figure class="project w-50">
+                    <img src="./assets/IMG_3.jpeg" alt="image with number 3 sign">
+                </figure>
+                <figure class="project w-50">
+                    <img src="./assets/IMG_unknown.jpeg" alt="image with unknown sign">
+                </figure>
+                <figure class="project w-50">
+                    <img src="./assets/IMG_unknown.jpeg" alt="image with unknown sign">
+                </figure>
+            </div>
         </section>
         <section id="contactme">
             <div class="col-left">
@@ -86,7 +72,5 @@
                 </nav>
             </div>
         </section>
-    </main>
-        
 </body>
 </html>
