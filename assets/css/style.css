@@ -59,6 +59,10 @@ li {
     color:black;
 }
 
+.navbar {
+    justify-content: space-between;
+}
+
 section {
     padding-top: 1em;
     display: flex;
@@ -96,8 +100,9 @@ p {
     height: 100%;
 }
 
-.w-50 {
+.project w-50 {
     width: 50%;
+    
 }
 
 .project {
@@ -108,6 +113,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    padding: .5em;
 }
 
 .bottom-left {
@@ -124,6 +130,10 @@ img {
     header {
       background: #f3e48e;
     }
+    .header {
+        width: 100%;
+        display: block;
+    }
   }
   
   /* Cards are stacked on top of each other at 768px or smaller */
@@ -134,5 +144,9 @@ img {
     /* Change the header color */
     header {
       background: #8ac4ff;
+    }
+    .header {
+        width: 100%;
+        display: block;
     }
   }
