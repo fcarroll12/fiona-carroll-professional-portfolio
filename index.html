@@ -5,78 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiona Carroll's Professional Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style1.css" />
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <h1>Fiona Carroll's Portfolio</h1> 
-        <h3>Welcome!</h3>
-        <nav class="navbar">
-             <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
+        <nav>
+            <a href="#aboutme">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contactme">Contact Me</a>
+                <a href="#resume">Resume</a>
         </nav>
     </header>
- 
-    <main class="container">
-        <section id="aboutme">
-            <div class="col-left">
-                <h2>About Me</h2>
-            </div>
-            <div class="col-right">
-                <p> Insert paragraph about myself here.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
-            non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur esse
-            voluptatum, dolores dolor aspernatur neque laborum dolorum dolorem repudiandae. Dignissimos eveniet sequi
-            corporis tempore ullam! </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde
-            non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore</p>
-            </div>
-        </section>
-        <section id="work">
-            <div class="col-left">
-                <h2> Work</h2>
-            </div>
-            <div class="col-right"> 
-                <div class="project-container">
-                    <figure class="project w-100">
-                        <img src="./assets/IMG_2.jpeg" alt="image with number 1 sign">
-                        <div class="bottom-left">
-                            <h3>Project 1</h3>
-                            <p>MERN Stack</p>
-                        </div>
-                    </figure>
-                    <figure class="project w-50">
-                        <img src="./assets/IMG_unknown.jpeg" alt="image with number 2 sign">
-                    </figure>
-                    <figure class="project w-50">
-                        <img src="./assets/IMG_unknown.jpeg" alt="image with number 3 sign">
-                    </figure>
-                    <figure class="project w-50">
-                        <img src="./assets/IMG_unknown.jpeg" alt="image with unknown sign">
-                    </figure>
-                    <figure class="project w-50">
-                        <img src="./assets/IMG_unknown.jpeg" alt="image with unknown sign">
-                    </figure>
-                </div> 
+    
+    <section class="subtitle">
+        <div>
+          <h2>Welcome to my page!</h2>
+        </div>
+    </section>
+    
+    <main class="page">
+        <section class="page-section" id="about-me">
+          <h2>About Me</h2>
+          <div>
+                <p> Hi there! My name is Fiona. I am currently living in sunny San Diego. I am a Syracuse University Graduate with a B.A. in Music and a Minor in Psychology. I have worked in numerous career fields post grad but never really found my niche. 
+                    Web development and design has always sparked my interest as I am a very tech-savvy and creative person who also some experience with web design.
+                    I am studying at the UCSD Coding Bootcamp full-time. I intend to receive my award of completion on June 13th, 2022 and begin my career search in web development.  
+                </p>
+                <p> Below are just a few examples of my work. Be sure to check them out!
+                </p>
             </div>
         </section>
-        <section id="contactme">
-            <div class="col-left">
-                <h2>Contact Me</h2>
-            </div>
-            <div class="col-right">
-                <nav class="navbar">
-                    <a href="#">928-853-3458</a>
-                    <a href="#">fiona.carroll@me.com</a>
-                    <a href="https://github.com/fcarroll12">Github</a>
-                    <a href="linkedin.com/in/fionacarroll91a8161b2/">Linkedin</a>
-                </nav>
+
+        <section class="page-section" id="projects">
+            <h2>Work</h2>
+            <div class="flex-container">
+      
+              <a href="#" class="flex project-1">
+                <div>
+                  <h3>Food-Flix</h3>
+                  <span>Bulma/JavaScript/Web API's</span>
+                </div>
+              </a>
+              
+              <a href="#" class="flex scheduler">
+                <div>
+                  <h3>Effective Work Calendar</h3>
+                  <span>Javascript/JQuery/CSS/HTML</span>
+                </div>
+              </a>
+              <a href="#" class="flex crawler">
+                <div>
+                  <h3>Horiseon Web Crawler</h3>
+                  <span>HTML/CSS</span>
+                </div>
+              </a>
+      
+              <a href="#" class="flex unknown-1">
+                <div>
+                  <h3>Project to Come </h3>
+                  <span>??</span>
+                </div>
+              </a>
+      
+          
+              <a href="#" class="flex unknown-2">
+                <div>
+                  <h3>Project to Come</h3>
+                  <span>??</span>
+                </div>
+              </a>
+      
             </div>
         </section>
+      
+        <section class="page-section me" id="contact-me">
+            <h2>Contact Me</h2>
+            <div>
+                <address>
+                    <a href="#:9288533458">928-853-3458</a>
+                    <a href="email:fiona.carroll@me.com">fiona.carroll@me.com</a>
+                    <a href="https://github.com/fcarroll12">GitHub</a>
+                    <a href="#">Resume</a>
+                    <a href="https://www.linkedin.com/in/fionacarroll91a8161b2">Linkedin</a>
+                <address>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
